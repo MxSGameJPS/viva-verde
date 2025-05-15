@@ -1,0 +1,87 @@
+{
+    "Ofertas": [
+      { "id": 1, "nome": "Maçã Gala", "precoAntigo": 3.49, "precoNovo": 2.99, "unidade": "kg", "img": "/produtos/ofertas/maça_gala.jpeg" },
+      { "id": 2, "nome": "Tomate Italiano", "precoAntigo": 4.29, "precoNovo": 3.99, "unidade": "kg", "img": "/produtos/ofertas/tomate_italiano.webp" },
+      { "id": 3, "nome": "Cenoura", "precoAntigo": 2.89, "precoNovo": 2.49, "unidade": "kg", "img": "/produtos/ofertas/cenoura.jpg" },
+      { "id": 4, "nome": "Banana Prata", "precoAntigo": 3.19, "precoNovo": 2.99, "unidade": "kg", "img": "/produtos/ofertas/banana_prata.jpg" },
+      { "id": 5, "nome": "Alface Crespa", "precoAntigo": 1.99, "precoNovo": 1.49, "unidade": "un", "img": "/produtos/ofertas/alface_crespa.jpeg" },
+      { "id": 6, "nome": "Cebola", "precoAntigo": 2.39, "precoNovo": 1.99, "unidade": "kg", "img": "/produtos/ofertas/cebola.png" },
+      { "id": 7, "nome": "Batata", "precoAntigo": 3.59, "precoNovo": 3.19, "unidade": "kg", "img": "/produtos/ofertas/batata.png" },
+      { "id": 8, "nome": "Laranja Pera", "precoAntigo": 2.79, "precoNovo": 2.49, "unidade": "kg", "img": "/produtos/ofertas/laranja_pera.jpg" },
+      { "id": 9, "nome": "Ovo Branco c/12", "precoAntigo": 7.99, "precoNovo": 6.99, "unidade": "dz", "img": "/produtos/ofertas/ovos_brancos_12.avif" },
+      { "id": 10, "nome": "Suco Natural", "precoAntigo": 5.49, "precoNovo": 4.99, "unidade": "l", "img": "/produtos/ofertas/suco_natural.webp" }
+    ],
+    "Frutas": [
+      { "id": 11, "nome": "Banana Nanica", "precoAntigo": 2.99, "precoNovo": 2.49, "unidade": "kg", "img": "/produtos/frutas/banana-nanica.webp" },
+      { "id": 12, "nome": "Maçã Fuji", "precoAntigo": 4.49, "precoNovo": 3.99, "unidade": "kg", "img": "/produtos/frutas/maca-fuji.jpg" },
+      { "id": 13, "nome": "Pera Portuguesa", "precoAntigo": 6.29, "precoNovo": 5.99, "unidade": "kg", "img": "/produtos/frutas/pera.webp" },
+      { "id": 14, "nome": "Laranja Lima", "precoAntigo": 3.19, "precoNovo": 2.99, "unidade": "kg", "img": "/produtos/frutas/laranja_lima.webp" },
+      { "id": 15, "nome": "Abacaxi", "precoAntigo": 6.99, "precoNovo": 5.99, "unidade": "un", "img": "/produtos/frutas/abacaxi.jpg" },
+      { "id": 16, "nome": "Uva Itália", "precoAntigo": 8.59, "precoNovo": 7.99, "unidade": "kg", "img": "/produtos/frutas/uva_italia.avif" },
+      { "id": 17, "nome": "Mamão Formosa", "precoAntigo": 3.99, "precoNovo": 3.49, "unidade": "kg", "img": "/produtos/frutas/mamao_formosa.jpeg" },
+      { "id": 18, "nome": "Melancia", "precoAntigo": 2.49, "precoNovo": 2.19, "unidade": "kg", "img": "/produtos/frutas/melancia.webp" },
+      { "id": 19, "nome": "Manga Palmer", "precoAntigo": 5.29, "precoNovo": 4.99, "unidade": "kg", "img": "/produtos/frutas/manga-palmer.jpg" },
+      { "id": 20, "nome": "Kiwi", "precoAntigo": 7.19, "precoNovo": 6.99, "unidade": "kg", "img": "/produtos/frutas/kiwi.avif" }
+    ],
+    "Legumes": [
+      { "id": 21, "nome": "Batata Doce", "precoAntigo": 3.59, "precoNovo": 3.19, "unidade": "kg", "img": "/produtos/legumes/batata_doce.webp" },
+      { "id": 22, "nome": "Cenoura", "precoAntigo": 2.89, "precoNovo": 2.49, "unidade": "kg", "img": "/produtos/legumes/cenoura.png" },
+      { "id": 23, "nome": "Beterraba", "precoAntigo": 3.19, "precoNovo": 2.99, "unidade": "kg", "img": "/produtos/legumes/beterraba.jpg" },
+      { "id": 24, "nome": "Chuchu", "precoAntigo": 2.49, "precoNovo": 2.19, "unidade": "kg", "img": "/produtos/legumes/chuchu.png" },
+      { "id": 25, "nome": "Abobrinha", "precoAntigo": 3.69, "precoNovo": 3.19, "unidade": "kg", "img": "/produtos/legumes/abobrinha.jpg" },
+      { "id": 26, "nome": "Pepino", "precoAntigo": 2.99, "precoNovo": 2.49, "unidade": "kg", "img": "/produtos/legumes/pepino.jpg" },
+      { "id": 27, "nome": "Vagem", "precoAntigo": 5.99, "precoNovo": 4.99, "unidade": "kg", "img": "/produtos/legumes/vagem.jpg" },
+      { "id": 28, "nome": "Mandioquinha", "precoAntigo": 9.99, "precoNovo": 8.99, "unidade": "kg", "img": "/produtos/legumes/mandioquinha.jpg" },
+      { "id": 29, "nome": "Inhame", "precoAntigo": 6.49, "precoNovo": 5.99, "unidade": "kg", "img": "/produtos/legumes/inhame.webp" },
+      { "id": 30, "nome": "Jiló", "precoAntigo": 4.39, "precoNovo": 3.99, "unidade": "kg", "img": "/produtos/legumes/jilo.jpg" }
+    ],
+    "Temperos": [
+      { "id": 31, "nome": "Alho", "precoAntigo": 19.99, "precoNovo": 17.99, "unidade": "kg", "img": "/produtos/tempeiros/alho.avif" },
+      { "id": 32, "nome": "Cebola", "precoAntigo": 2.99, "precoNovo": 2.49, "unidade": "kg", "img": "/produtos/tempeiros/cebola.webp" },
+      { "id": 33, "nome": "Pimentão Verde", "precoAntigo": 4.79, "precoNovo": 4.29, "unidade": "kg", "img": "/produtos/tempeiros/pimentao-verde.webp" },
+      { "id": 34, "nome": "Pimenta Dedo-de-Moça", "precoAntigo": 7.49, "precoNovo": 6.79, "unidade": "kg", "img": "/produtos/tempeiros/pimenta.png" },
+      { "id": 35, "nome": "Salsa", "precoAntigo": 1.50, "precoNovo": 1.29, "unidade": "maço", "img": "/produtos/tempeiros/salsa.webp" },
+      { "id": 36, "nome": "Cebolinha", "precoAntigo": 1.50, "precoNovo": 1.29, "unidade": "maço", "img": "/produtos/tempeiros/cebolinha.webp" },
+      { "id": 37, "nome": "Gengibre", "precoAntigo": 11.99, "precoNovo": 10.99, "unidade": "kg", "img": "/produtos/tempeiros/gengibre.webp" },
+      { "id": 38, "nome": "Manjericão", "precoAntigo": 2.50, "precoNovo": 2.29, "unidade": "maço", "img": "/produtos/tempeiros/manjericao.webp" },
+      { "id": 39, "nome": "Alecrim", "precoAntigo": 2.50, "precoNovo": 2.29, "unidade": "maço", "img": "/produtos/tempeiros/alecrim.webp" },
+      { "id": 40, "nome": "Tomilho", "precoAntigo": 2.99, "precoNovo": 2.49, "unidade": "maço", "img": "/produtos/tempeiros/tomilho.webp" }
+    ],
+    "Ovos": [
+      { "id": 41, "nome": "Ovo Branco c/12", "precoAntigo": 7.99, "precoNovo": 6.99, "unidade": "dz", "img": "/produtos/ovos/Ovo-Branco-c12.jpeg" },
+      { "id": 42, "nome": "Ovo Vermelho c/12", "precoAntigo": 8.49, "precoNovo": 7.49, "unidade": "dz", "img": "/produtos/ovos/Ovo-Vermelho-c12.jpg" },
+      { "id": 43, "nome": "Ovo Orgânico c/6", "precoAntigo": 9.99, "precoNovo": 8.99, "unidade": "bandeja", "img": "/produtos/ovos/Ovo-Orgânico-c6.webp" },
+      { "id": 44, "nome": "Ovo Caipira c/12", "precoAntigo": 10.99, "precoNovo": 9.99, "unidade": "dz", "img": "/produtos/ovos/Ovo-Caipira-c12.webp" },
+      { "id": 45, "nome": "Ovo Jumbo c/10", "precoAntigo": 11.49, "precoNovo": 10.49, "unidade": "bandeja", "img": "/produtos/ovos/Ovo-Jumbo-c10.webp" },
+      { "id": 46, "nome": "Ovo Codorna c/30", "precoAntigo": 6.49, "precoNovo": 5.99, "unidade": "bandeja", "img": "/produtos/ovos/Ovo-Codorna-c30.webp" },
+      { "id": 47, "nome": "Ovo Cozido", "precoAntigo": 1.50, "precoNovo": 1.29, "unidade": "un", "img": "/produtos/ovos/ovo-cozido.jpg" },
+      { "id": 48, "nome": "Clara de Ovo", "precoAntigo": 6.99, "precoNovo": 5.99, "unidade": "500ml", "img": "/produtos/ovos/Clara-Ovo.webp" },
+      { "id": 49, "nome": "Ovo Pasteurizado", "precoAntigo": 12.99, "precoNovo": 11.99, "unidade": "1L", "img": "/produtos/ovos/Ovo-Pasteurizado.png" },
+      { "id": 50, "nome": "Ovo de Galinha Feliz", "precoAntigo": 14.49, "precoNovo": 13.49, "unidade": "dz", "img": "/produtos/ovos/galinha-feliz.jpg" }
+    ],
+    "Bebidas": [
+      { "id": 51, "nome": "Suco de Laranja Natural", "precoAntigo": 5.49, "precoNovo": 4.99, "unidade": "l", "img": "/produtos/bebidas/suco-laranja.jpg" },
+      { "id": 52, "nome": "Água Mineral c/ Gás", "precoAntigo": 1.79, "precoNovo": 1.49, "unidade": "500ml", "img": "/produtos/bebidas/agua-gas.jpg" },
+      { "id": 53, "nome": "Refrigerante Cola", "precoAntigo": 6.99, "precoNovo": 5.99, "unidade": "2L", "img": "/produtos/bebidas/refri.webp" },
+      { "id": 54, "nome": "Água de Coco", "precoAntigo": 4.99, "precoNovo": 3.99, "unidade": "1L", "img": "/produtos/bebidas/coco.webp" },
+      { "id": 55, "nome": "Chá Gelado", "precoAntigo": 4.49, "precoNovo": 3.99, "unidade": "1L", "img": "/produtos/bebidas/cha.webp" },
+      { "id": 56, "nome": "Suco Detox", "precoAntigo": 7.99, "precoNovo": 6.99, "unidade": "1L", "img": "/produtos/bebidas/detoxx.webp" },
+      { "id": 57, "nome": "Energético", "precoAntigo": 8.99, "precoNovo": 7.99, "unidade": "269ml", "img": "/produtos/bebidas/energetico.webp" },
+      { "id": 58, "nome": "Suco Uva Integral", "precoAntigo": 11.49, "precoNovo": 10.49, "unidade": "1L", "img": "/produtos/bebidas/uva.jpg" },
+      { "id": 59, "nome": "Mate Gelado", "precoAntigo": 3.99, "precoNovo": 3.49, "unidade": "500ml", "img": "/produtos/bebidas/mate.webp" },
+      { "id": 60, "nome": "Smoothie de Frutas", "precoAntigo": 9.49, "precoNovo": 8.49, "unidade": "500ml", "img": "/produtos/bebidas/smoothie.png" }
+    ],
+    "Nozes e Grãos": [
+      { "id": 61, "nome": "Castanha de Caju", "precoAntigo": 49.99, "precoNovo": 44.99, "unidade": "kg", "img": "/produtos/nozesegraos/caju.jpg" },
+      { "id": 62, "nome": "Castanha do Pará", "precoAntigo": 59.99, "precoNovo": 54.99, "unidade": "kg", "img": "/produtos/nozesegraos/para.jpg" },
+      { "id": 63, "nome": "Amêndoas", "precoAntigo": 69.90, "precoNovo": 64.90, "unidade": "kg", "img": "/produtos/nozesegraos/amendoas.png" },
+      { "id": 64, "nome": "Nozes", "precoAntigo": 79.99, "precoNovo": 74.99, "unidade": "kg", "img": "/produtos/nozesegraos/nozes.png" },
+      { "id": 65, "nome": "Avelã", "precoAntigo": 84.90, "precoNovo": 79.90, "unidade": "kg", "img": "/produtos/nozesegraos/avela.webp" },
+      { "id": 66, "nome": "Semente de Chia", "precoAntigo": 29.90, "precoNovo": 24.90, "unidade": "kg", "img": "/produtos/nozesegraos/chia.jpg" },
+      { "id": 67, "nome": "Semente de Linhaça", "precoAntigo": 19.90, "precoNovo": 14.90, "unidade": "kg", "img": "/produtos/nozesegraos/linhaca.webp" },
+      { "id": 68, "nome": "Grão de Bico", "precoAntigo": 13.99, "precoNovo": 11.99, "unidade": "kg", "img": "/produtos/nozesegraos/grao-de-bico.webp" },
+      { "id": 69, "nome": "Lentilha", "precoAntigo": 9.99, "precoNovo": 8.99, "unidade": "kg", "img": "/produtos/nozesegraos/lentilha.jpg" },
+      { "id": 70, "nome": "Quinoa", "precoAntigo": 35.90, "precoNovo": 31.90, "unidade": "kg", "img": "/produtos/nozesegraos/quinoa.webp" }
+    ]
+  }
+  
