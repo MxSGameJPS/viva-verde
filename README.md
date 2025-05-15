@@ -2,7 +2,7 @@
 
 ![React](https://img.shields.io/badge/React-19.1.0-61DAFB?style=flat-square&logo=react)
 ![Vite](https://img.shields.io/badge/Vite-6.3.5-646CFF?style=flat-square&logo=vite)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4.1.5-38B2AC?style=flat-square&logo=tailwind-css)
+![CSS Modules](https://img.shields.io/badge/CSS_Modules-enabled-1572B6?style=flat-square&logo=css3)
 ![React Router](https://img.shields.io/badge/React_Router-7.5.3-CA4245?style=flat-square&logo=react-router)
 
 ## 📋 Sobre o Projeto
@@ -13,7 +13,7 @@ Viva Verde é um e-commerce sustentável focado na venda de produtos ecologicame
 
 - **React**: Biblioteca JavaScript para construção de interfaces
 - **Vite**: Build tool e servidor de desenvolvimento
-- **TailwindCSS**: Framework CSS para estilização rápida e responsiva
+- **CSS Modules**: Estilização modular com escopo local para componentes
 - **React Router DOM**: Gerenciamento de rotas da aplicação
 - **Context API**: Gerenciamento de estado para autenticação e carrinho de compras
 
