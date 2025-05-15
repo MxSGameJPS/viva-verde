@@ -1,0 +1,42 @@
+.listaProdutos {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  gap: 20px !important;
+  justify-content: center !important;
+  width: 100% !important;
+  padding: 0 !important;
+  margin: 0 auto !important;
+  max-width: 100% !important;
+  box-sizing: border-box !important;
+}
+
+.semProdutos {
+  width: 100%;
+  text-align: center;
+  padding: 40px 0;
+  color: #666;
+  font-size: 1.1rem;
+}
+
+/* Media queries para dispositivos menores */
+@media (max-width: 768px) {
+  .listaProdutos {
+    flex-direction: column !important;
+    gap: 15px !important;
+    align-items: center !important;
+    padding: 0 5px !important;
+  }
+}
+
+/* Especificamente para telas muito pequenas */
+@media (max-width: 375px) {
+  .listaProdutos {
+    gap: 10px !important;
+    padding: 0 2px !important;
+  }
+
+  .semProdutos {
+    font-size: 0.9rem;
+    padding: 20px 0;
+  }
+}

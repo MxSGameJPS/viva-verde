@@ -1,0 +1,209 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 220px;
+  height: 375px;
+  padding: 8px 22px 10px 22px;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 15px;
+  background: #fff;
+  border: 0.5px solid #c6c5ce;
+  position: relative;
+  margin: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.favorito {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.imagem {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  margin: 0 auto;
+  display: block;
+}
+
+.nome {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+  margin: 10px auto;
+  width: 100%;
+  height: 40px;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.precoAntigo {
+  margin: 5px 0;
+  font-size: 12px;
+  color: #858585;
+  text-decoration: line-through;
+  text-align: start;
+  width: 100%;
+}
+
+.precoAtual {
+  font-size: 16px;
+  font-weight: bold;
+  color: #181818;
+  text-align: start;
+  margin: 0 0 10px 0;
+  width: 100%;
+}
+
+.unidade {
+  font-size: 12px;
+  color: #666;
+}
+
+.adicionar {
+  display: flex;
+  height: 40px;
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  border-radius: 10px;
+  background: #25995c;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  gap: 10px;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+.adicionar:hover {
+  background-color: #1c7a4a;
+}
+
+.adicionar:disabled {
+  cursor: default;
+}
+
+.adicionado {
+  background-color: #4caf50;
+}
+
+.adicionado:hover {
+  background-color: #4caf50;
+}
+
+/* Media queries para responsividade */
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    max-height: 120px;
+    margin: 5px 0;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .imagem {
+    width: 80px;
+    height: 80px;
+    margin: 0;
+    flex-shrink: 0;
+  }
+
+  .nome {
+    text-align: left;
+    margin: 0;
+    font-size: 14px;
+    height: auto;
+    -webkit-line-clamp: 1;
+    width: calc(100% - 110px);
+  }
+
+  .precoAntigo {
+    margin: 3px 0;
+    font-size: 11px;
+    width: auto;
+  }
+
+  .precoAtual {
+    font-size: 14px;
+    margin-bottom: 5px;
+    width: auto;
+  }
+
+  .favorito {
+    top: 5px;
+    right: 5px;
+  }
+
+  .adicionar {
+    position: absolute;
+    right: 15px;
+    bottom: 9px;
+    width: auto;
+    padding: 5px 10px;
+    height: 30px;
+    font-size: 12px;
+    min-width: 80px;
+    max-width: 100px;
+  }
+}
+
+/* Media query específica para telas muito pequenas como iPhone SE (375x667) */
+@media (max-width: 375px) {
+  .card {
+    padding: 10px;
+    gap: 8px;
+    margin: 5px 0;
+  }
+
+  .imagem {
+    width: 60px;
+    height: 60px;
+  }
+
+  .nome {
+    font-size: 12px;
+    width: calc(100% - 80px);
+  }
+
+  .precoAntigo {
+    font-size: 10px;
+  }
+
+  .precoAtual {
+    font-size: 12px;
+  }
+
+  .adicionar {
+    right: 10px;
+    bottom: 5px;
+    padding: 2px 4px;
+    font-size: 8px;
+    min-width: 40px;
+    max-width: 50px;
+    height: 20px;
+  }
+}

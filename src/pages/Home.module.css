@@ -1,0 +1,30 @@
+.home {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  flex-direction: row;
+}
+
+.lateral {
+  flex: 0 0 250px;
+}
+
+.conteudo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .home {
+    flex-direction: column;
+  }
+
+  .lateral {
+    flex: none;
+    width: 100%;
+  }
+}

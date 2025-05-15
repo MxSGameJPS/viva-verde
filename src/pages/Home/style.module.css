@@ -1,0 +1,161 @@
+.main {
+  padding: 20px 0;
+  position: relative;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+/* Sidebar de filtros */
+.sidebar {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  height: fit-content;
+}
+
+.filtroHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.filtroHeader h2 {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.fechaFiltro {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #888;
+}
+
+.filtroGrupo {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 15px;
+}
+
+.filtroGrupo:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.filtroGrupo h3 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.filtroGrupo ul {
+  list-style: none;
+  padding: 0;
+}
+
+.filtroGrupo li {
+  margin-bottom: 8px;
+}
+
+.filtroGrupo button {
+  background: none;
+  border: none;
+  color: #666;
+  cursor: pointer;
+  font-size: 0.9rem;
+  text-align: left;
+  padding: 5px 0;
+  transition: color 0.2s;
+}
+
+.filtroGrupo button:hover {
+  color: #25995c;
+}
+
+.filtroGrupo button.ativo {
+  color: #25995c;
+  font-weight: 600;
+}
+
+.filtroGrupo select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 0.9rem;
+}
+
+.filtroGrupo label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Conteúdo dos produtos */
+.content {
+  width: 100%;
+}
+
+.headerProdutos {
+  margin-bottom: 20px;
+}
+
+.headerProdutos h1 {
+  font-size: 1.5rem;
+  color: #25995c;
+  margin-bottom: 5px;
+}
+
+.headerProdutos p {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+/* Media queries para responsividade */
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+    padding: 0 15px;
+  }
+
+  .fechaFiltro {
+    display: block;
+  }
+
+  .headerProdutos {
+    text-align: center;
+  }
+}
+
+/* Para telas muito pequenas */
+@media (max-width: 375px) {
+  .main {
+    padding: 10px 0;
+  }
+
+  .container {
+    padding: 0 10px;
+    gap: 10px;
+  }
+
+  .headerProdutos h1 {
+    font-size: 1.3rem;
+  }
+
+  .content {
+    padding: 0;
+  }
+}

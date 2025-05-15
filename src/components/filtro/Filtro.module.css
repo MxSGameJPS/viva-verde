@@ -1,0 +1,144 @@
+.filtros {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 15px;
+  width: 250px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 60px;
+}
+
+.filtros h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.selectContainer {
+  margin-bottom: 12px;
+}
+
+.select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 0.9rem;
+  cursor: pointer;
+  outline: none;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%23666' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M6 9l6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+
+.precoContainer {
+  margin-top: 20px;
+}
+
+.precoContainer p {
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.precoValores {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.sliderContainer {
+  position: relative;
+  height: 20px;
+  margin-top: 10px;
+}
+
+.slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  appearance: none;
+  background: transparent;
+  pointer-events: none;
+}
+
+.slider::-webkit-slider-thumb {
+  appearance: none;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #22c55e;
+  cursor: pointer;
+  pointer-events: auto;
+  border: none;
+}
+
+.slider::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #22c55e;
+  cursor: pointer;
+  pointer-events: auto;
+  border: none;
+}
+
+.slider::-webkit-slider-runnable-track {
+  height: 6px;
+  background: #ddd;
+  border-radius: 3px;
+}
+
+.slider::-moz-range-track {
+  height: 6px;
+  background: #ddd;
+  border-radius: 3px;
+}
+
+.slider:focus {
+  outline: none;
+}
+
+/* Estilizar o primeiro slider para ter uma cor diferente à esquerda */
+.slider:nth-child(1)::-webkit-slider-runnable-track {
+  background: linear-gradient(to right, #ddd 0%, #22c55e 100%);
+}
+
+/* Estilizar o segundo slider para ter uma cor diferente à direita */
+.slider:nth-child(2)::-webkit-slider-runnable-track {
+  background: linear-gradient(to right, #22c55e 0%, #ddd 100%);
+}
+
+.checkboxContainer {
+  margin-bottom: 15px;
+}
+
+.checkboxContainer label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+  color: #333;
+  cursor: pointer;
+}
+
+.checkboxContainer input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  accent-color: #22c55e;
+}
+
+/* Media queries para responsividade */
+@media (max-width: 768px) {
+  .filtros {
+    width: 100%;
+    margin-top: 20px;
+  }
+}
